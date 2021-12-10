@@ -5,7 +5,7 @@ A Docker template for Phalcon based application.
 - clone this repository
 - `docker compose up -d`
 - `docker compose exec app composer init`
-- `docker compose exec app composer require --dev phalcon/devtools
+- `docker compose exec app composer require --dev phalcon/devtools`
 - `docker compose exec app ./vendor/bin/phalcon project application simple`
 - Open localhost:7000
 
